@@ -1,0 +1,48 @@
+body{
+    background-color: #910909;
+    margin: 0;
+    padding: 0;
+    color:#000;
+    font-size:15px;
+    font-family: "Noto Sans";
+}
+
+/*Header                            */
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title__text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.b_area{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.button_class{
+    padding: 20px;
+    min-width: 200px;
+    background-color: #910909;
+    color: black;
+    border-radius: 20px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+    border:2px solid black;
+}
+.button_class:hover{
+    background-color: black;
+    color:#910909;
+
+}
+.button_s{
+    margin-top: 50px;
+}
+#block_f{
+    display: block;
+}
