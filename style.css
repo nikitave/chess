@@ -1,8 +1,8 @@
 body{
-    background-color: #910909;
+    background-color: #F51001;
     margin: 0;
     padding: 0;
-    color:#000;
+    color:#360400;
     font-size:15px;
     font-family: "Noto Sans";
 }
@@ -18,26 +18,28 @@ body{
     font-weight: bold;
 }
 
+/* Area                              */
 .b_area{
-    margin-top: 80px;
+    margin-top: 200px;
     text-align: center;
 }
 
 .button_class{
     padding: 20px;
     min-width: 200px;
-    background-color: #910909;
+    background-color: #750800;
     color: black;
     border-radius: 20px;
     outline: none;
     font-weight: bold;
     cursor: pointer;
     transition: .5s;
-    border:2px solid black;
+    border:2px solid #360400;
 }
 .button_class:hover{
-    background-color: black;
-    color:#910909;
+    background-color: #360400;
+    color:#F51001;
+    border: 2px solid #750800;
 
 }
 .button_s{
