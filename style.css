@@ -1,8 +1,8 @@
 body{
-    background-color: #F51001;
+    background-color: #ededf1;
     margin: 0;
     padding: 0;
-    color:#360400;
+    color:#000000;
     font-size:15px;
     font-family: "Noto Sans";
 }
@@ -27,19 +27,19 @@ body{
 .button_class{
     padding: 20px;
     min-width: 200px;
-    background-color: #750800;
-    color: black;
+    background-color: #652d29;
+    color: white;
     border-radius: 20px;
     outline: none;
     font-weight: bold;
     cursor: pointer;
     transition: .5s;
-    border:2px solid #360400;
+    border:2px solid black;
 }
 .button_class:hover{
-    background-color: #360400;
-    color:#F51001;
-    border: 2px solid #750800;
+    background-color: #ededf1;
+    color:#652d29;
+    border: 2px solid black;
 
 }
 .button_s{
