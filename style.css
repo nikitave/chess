@@ -24,7 +24,7 @@ body{
     text-align: center;
 }
 
-.button_class{
+.button__class{
     padding: 20px;
     min-width: 200px;
     background-color: #652d29;
@@ -36,7 +36,7 @@ body{
     transition: .5s;
     border:2px solid black;
 }
-.button_class:hover{
+.button__class:hover{
     background-color: #ededf1;
     color:#652d29;
     border: 2px solid black;
@@ -47,4 +47,32 @@ body{
 }
 #block_f{
     display: block;
+}
+
+/*Area with block of button         */
+#choosing_area{
+    display: none;
+ 
+}
+.area_button__time{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.choosing__all{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.time__text{
+    padding-right: 10px;
+}
+
+.choosing__color__text{
+    margin-right: 10px;
+}
+
+.host__text{
+    margin-right: 10px;    
 }
