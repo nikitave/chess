@@ -20,7 +20,7 @@
         </div>
     </div>
     <div id="choosing_area" class="area_button">
-       <form>
+       <form method="POST" action={{ url_for('create_game') }}>
             <div class="area_button__time">
                 <div class="time__text">Step Time</div>
                 <input  />
@@ -37,7 +37,7 @@
                 <input />
             </div>
             <div class="choosing__all">
-                <button class="button__class" type="button">Create game</button>
+                <input type="submit" class="button__class" type="button">Create game</input>
             </div>
         </form>
     </div>
