@@ -1,5 +1,4 @@
 import os
-from uuid import uuid4
 
 from flask import Flask, render_template, request, session
 from flask_sqlalchemy import SQLAlchemy
@@ -35,5 +34,4 @@ def register():
 
 
 if __name__ == '__main__':
-    print(models.User)
     app.run(debug=True)
