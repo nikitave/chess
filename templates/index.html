@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>GNBChess</title>
+    <title>Chess</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
 
 </head>
@@ -22,19 +22,22 @@
     <div id="choosing_area" class="area_button">
        <form method="POST" action={{ url_for('create_game') }}>
             <div class="area_button__time">
-                <div class="time__text">Time</div>
+                <div class="time__text">Step Time</div>
                 <input  />
             </div>
             <div class="choosing__all">
-               <span class="choosing__color__text">You color</span>
+               <span class="choosing__color__text">Choose your color</span>
                 <select>
                     <option>White</option>
                     <option>Black</option>
-                    <option>Random</option>
                 </select>
             </div>
             <div class="choosing__all">
-                <button class="button__class" type="submit" type="button">Create game</button>
+                <div class="host__text">Choose host</div>
+                <input />
+            </div>
+            <div class="choosing__all">
+                <button  class="button__class" type="submit" type="button">Create game</button>
             </div>
         </form>
     </div>
